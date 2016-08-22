@@ -340,7 +340,7 @@ namespace AcmeProject\Infrastructure\Api\Mappings;
 
 use NilPortugues\Api\Mappings\JsonApiMapping;
 
-class CommendMapping implements JsonApiMapping
+class CommentMapping implements JsonApiMapping
 {
     /**
      * {@inhertidoc}
@@ -492,7 +492,7 @@ $classConfig = [
     \AcmeProject\Infrastructure\Api\Mappings\PostIdMapping::class,
     \AcmeProject\Infrastructure\Api\Mappings\UserMapping::class,
     \AcmeProject\Infrastructure\Api\Mappings\UserIdMapping::class,
-    \AcmeProject\Infrastructure\Api\Mappings\CommendMapping::class,
+    \AcmeProject\Infrastructure\Api\Mappings\CommentMapping::class,
     \AcmeProject\Infrastructure\Api\Mappings\CommentId::class,
 ];
 
